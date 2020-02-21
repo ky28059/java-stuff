@@ -1,4 +1,5 @@
-# java-stuff
+# java stuff
 
-### random garbage
-### edit / improve if u want
+random garbage
+
+edit / improve if u want
