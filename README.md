@@ -1,4 +1,4 @@
 # java-stuff
 
-random garbage
+random garbage \n
 edit / improve if u want
