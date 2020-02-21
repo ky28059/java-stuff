@@ -32,11 +32,4 @@ public class FileManager {
 		return sb.toString();
     } 
 	
-	/*
-	public static void editFile() {
-		
-		
-	}
-	*/
-	
 }
