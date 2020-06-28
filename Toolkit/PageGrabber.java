@@ -29,7 +29,6 @@ public class PageGrabber {
 		} finally {
 			in.close();
 		}
-		
 	}
 	
 	private String generateCookieString() {
@@ -48,7 +47,6 @@ public class PageGrabber {
 			
 			if (!isFirst) {
 				sb.append("; ");
-				
 			} else {
 				isFirst = false;
 			}
@@ -68,7 +66,6 @@ public class PageGrabber {
 		if (newCookies == null) {
 			return;
 		}
-		
 		for (String c : newCookies) {
 			String s = c.split(";", 2)[0];
 			int pos = s.indexOf("=");
@@ -111,8 +108,6 @@ public class PageGrabber {
 		setCookies(connection);
 		
 		int responseCode = connection.getResponseCode();
-		
-
 		if (responseCode == HttpURLConnection.HTTP_OK) {
 			//if code = 200, read page
 			return read(connection);
@@ -126,9 +121,6 @@ public class PageGrabber {
 			
 		} else {
 			return "request not working, return code = " + responseCode;
-			
 		}
-
 	}
-	
 }

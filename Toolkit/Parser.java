@@ -3,13 +3,11 @@ public class Parser {
 		
 		//find left and right
 		int left = src.indexOf(parseForL, startIndex);
-		
 		if (left == -1) {
 			return null;
 		}
 		
 		int right = src.indexOf(parseForR, left + parseForL.length());
-			
 		if (right == -1) {
 			return null;
 		}
@@ -20,6 +18,5 @@ public class Parser {
 		x.substring = sub;
 		x.index = right + parseForR.length();
 		return x;
-		
 	}
 }

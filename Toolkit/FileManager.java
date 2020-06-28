@@ -46,5 +46,4 @@ public class FileManager {
         fr.close(); 
 		return sb.toString();
     } 
-	
 }
